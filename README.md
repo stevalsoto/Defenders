@@ -1,28 +1,20 @@
-# PONG
+# Defenders
 
-This is a recreation of the classic pong video game. Implemented in the C
-programming language, using SDL library to display graphics on the screen.
-
-To compile you need to have SDL installed on your system and the header files
-available to you operating systems PATH environment variable
-
+Proyecto elaborado para el curso de Diseño de Sistemas Digitales, de la carrera Ingenieria Electrónica, del  Tecnológico de Costa Rica campus tecnológico local San Carlos.
+Es una recreación del juego clásico Defenders, implementado en el lenguaje de programación C, utilizando la librería SDL2.
+Para compilar se necesita tener SDL2 instalado y utilizar el siguiente comando en terminal:
 	gcc pong.c `sdl2-config --cflags --libs` -o pong
 
-### Update 2019
+Controles:
+-Espacio para empezar el juego
+-Las flechas para moverse
+-Disparar con la tecla c
+-Usar las bombas con la tecla v
+-Salir del juego con ESC
 
-This has been ported from SDL version 1 to work with SDL version 2. Also added is the ability to run the
-executable with the '-f' command line argument to run in fullscreen 
-(will stretch the 640 * 480 image your systems native display resolution)
+Demostración del Juego:
+https://youtu.be/P31V3mIGrC0
 
-I will take any feature requests like updating the AI or movement animation if there is any demand. Or 
-just clone the code and do it yourself. Enjoy!
-
-## Controls
-* space bar to start a game
-* arrow keys for movement
-* ESC to exit game
-
-## Images
-![title screen](http://i.imgur.com/radat.png)
-
-![game play](http://i.imgur.com/CZhqp.png)
+Autores:
+Catalina Barrientos Blanco
+Steven Alvarado Soto
