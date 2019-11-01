@@ -6,15 +6,15 @@ Para compilar se necesita tener SDL2 instalado y utilizar el siguiente comando e
 	gcc pong.c `sdl2-config --cflags --libs` -o pong
 
 Controles:
--Espacio para empezar el juego
--Las flechas para moverse
--Disparar con la tecla c
--Usar las bombas con la tecla v
--Salir del juego con ESC
+* Espacio para empezar el juego
+* Las flechas para moverse
+* Disparar con la tecla c
+* Usar las bombas con la tecla v
+* Salir del juego con ESC
 
 Demostración del Juego:
 https://youtu.be/P31V3mIGrC0
 
 Autores:
-Catalina Barrientos Blanco
-Steven Alvarado Soto
+* Catalina Barrientos Blanco
+* Steven Alvarado Soto
